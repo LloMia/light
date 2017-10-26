@@ -1,0 +1,51 @@
+.lightBox {
+    width : 7em;
+    margin : auto;
+    padding : 1em;
+}
+
+.lightStand {
+    background-color: black;
+    width : 7em;
+    margin : auto;
+    padding : 1em;
+}
+
+.light-background{
+    /*background-color: black;*/
+    padding: 0.1em;
+    width: 6em;
+    height: 6em;
+    /*opacity: 0.5;*/
+}
+.light {
+    width : 5em;
+    height: 5em;
+    background-color: yellow;
+    border-radius: 50%;
+    opacity: 0.25;
+    margin : 0.5em auto;
+    z-index: 10000;
+}
+div{
+  align: center;
+}
+
+.off {
+    opacity: 0.25;
+}
+
+.on {
+    opacity: 1;
+}
+
+/* light colors start */
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
